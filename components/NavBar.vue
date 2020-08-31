@@ -63,7 +63,7 @@ export default {
       return {
         drawer: null,
         items: [
-          { title: 'About Me', icon: 'mdi-account-question', link:'about' },
+          { title: 'About Me', icon: 'mdi-account-question', link:'/' },
           { title: 'Resume', icon: 'mdi-briefcase-variant', link:'resume' },
           { title: 'Portfolio', icon: 'mdi-file-multiple', link:'portfolio' },
           { title: 'Contact Me', icon: 'mdi-card-account-mail', link:'contact me' },

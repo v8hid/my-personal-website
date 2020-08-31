@@ -9,8 +9,10 @@
           </v-container>
         </v-main>
 
-        <v-footer app>
-
+        <v-footer absolute app class="menu-bg-color">
+          <div>Made with VueJS + NuxtJS + ❤️</div>
+          <v-spacer></v-spacer>
+          <div>&copy; {{ new Date().getFullYear() }}</div>
         </v-footer>
       </div>
     </v-app>
@@ -25,16 +27,23 @@ export default {
 <style lang=scss>
 
 div{
-  p,h1,h2,h3,h4,h5,h6{
-    color: $va-text-color;
+  p,h1,h2,h3,h4,h5,h6,.base-text-color{
+    color: $va-text-color !important;
   }
 
   .base-bg-color{
   background: $va-body-bg-color;
-  .box-bg-color{
-    background: $va-box-bg-color;
+    .box-bg-color{
+      background: $va-box-bg-color;
+    }
   }
-}
+  .menu-bg-color{
+    background: $va-menu-bg-color !important;
+    color:$va-footer-text-color !important ;
+  }
+  .sub-box-color{
+    background: $va-sub-box-bg-color !important;
+  }
 }
 
 </style>

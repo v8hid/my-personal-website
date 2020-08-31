@@ -1,6 +1,6 @@
 <template>
   <div class="container-fluid p-0 m-0">
-    <div class="row justify-content-center text-center  p-2 ">
+    <div class="row justify-content-center text-center p-2 ">
       <div class="col-12 pb-0">
         <h3>{{title}}</h3>
       </div>

@@ -3,13 +3,16 @@ $va-menu-bg-color: #2B2D42;
 $va-body-bg-color:#8D99AE;
 $va-box-bg-color:#EDF2F4;
 $va-text-color:  #2B2D42;
+$va-footer-text-color: khaki;
+$va-sub-box-bg-color: #F5CB5C;
 $primary: #EF233C;
-$body-bg: $va-menu-bg-color;
+$body-bg: $va-body-bg-color;
 $body-color: $va-text-color;
 $font-family-base: "Poppins-Light", sans-serif;
 
 :export {
   menuColor : $va-menu-bg-color;
-  TextColor : $va-text-color;
+  subBoxColor : $va-sub-box-bg-color;
+  textColor : $va-text-color;
 
 }
